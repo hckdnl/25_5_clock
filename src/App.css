@@ -1,12 +1,56 @@
 body {
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f0f0f0;
+  background-color: #004080; /* Light grey background */
 }
 
-#app {
+#app-container {
   text-align: center;
+  background-color: #e0e0e0; /* Slightly darker grey for the app container */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+button {
+  background-color: #003366; /* Dark blue background for buttons */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #002244; /* Darker blue on hover */
+}
+
+label, span {
+  color: #000000; /* Black text for labels and spans */
+  font-weight: bold;
+}
+
+.audio-element {
+  display: none; /* Hide the audio element */
+}
+
+#footer {
+  margin-top: 20px; /* Adjust as needed */
+  color: black; /* White color for the text */
+  font-size: 13px; /* Adjust font size as needed */
+  font-family: italic;
+}
+#footer a {
+  text-decoration: none; /* Removes underline from the link */
+  color: inherit; /* Inherits color from the parent element */
+}
+
+#footer a:hover {
+  color: blue; /* Change to desired hover color */
+}

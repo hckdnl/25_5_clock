@@ -75,7 +75,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div id="app-container">
       <div id="break-label">Break Length</div>
       <button id="break-decrement" onClick={() => changeLength('break', -1)}>-</button>
       <span id="break-length">{breakLength}</span>
@@ -94,6 +94,9 @@ function App() {
       <button id="reset" onClick={resetTimer}>Reset</button>
 
       <audio id="beep" src="https://cdn.freecodecamp.org/testable-projects-fcc/audio/BeepSound.wav" preload="auto"></audio>
+      <div id="footer">
+        Made by <a href='https://hckdnl.github.io/25_5_clock/' target='_blank' rel='noopener noreferrer'>hckdnl</a>
+      </div>
     </div>
   );
 }
