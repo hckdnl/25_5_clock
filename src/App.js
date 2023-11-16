@@ -95,7 +95,7 @@ function App() {
 
       <audio id="beep" src="https://cdn.freecodecamp.org/testable-projects-fcc/audio/BeepSound.wav" preload="auto"></audio>
       <div id="footer">
-        Made by <a href='https://hckdnl.github.io/25_5_clock/' target='_blank' rel='noopener noreferrer'>hckdnl</a>
+        Made by <a href='https://github.com/hckdnl' target='_blank' rel='noopener noreferrer'>hckdnl</a>
       </div>
     </div>
   );
